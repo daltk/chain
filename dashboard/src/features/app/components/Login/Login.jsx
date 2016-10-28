@@ -32,7 +32,6 @@ class Login extends React.Component {
 
     return (
       <div className={styles.main}>
-        <img className={styles.image} src={logo} />
         <div className={styles.form}>
           <form onSubmit={handleSubmit(this.submitWithErrors)}>
             <TextField
